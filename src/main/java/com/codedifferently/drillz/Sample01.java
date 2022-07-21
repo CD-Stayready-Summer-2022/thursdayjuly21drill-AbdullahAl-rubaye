@@ -16,6 +16,13 @@ public class Sample01 {
      * @return
      */
     public String everyNth(String str, int n) {
-        return null;
+        String answer="";
+        for(int i=0;i<str.length();i++){
+
+            answer = String.valueOf(str.substring(n));
+
+        }
+
+        return answer;
     }
 }
